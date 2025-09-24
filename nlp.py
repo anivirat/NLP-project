@@ -155,7 +155,7 @@ except sr.RequestError as e:
 import gtts
 from playsound import playsound
 
-pip install deep_translator
+!pip install deep_translator
 
 from deep_translator import GoogleTranslator
 translated = GoogleTranslator(source='auto', target='kn').translate(result)
